@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDE / Editors
+# =========================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Generated files
+# =========================
+
+parsed_project.json
+output/
+results/
+
+# =========================
+# Downloaded test repositories
+# =========================
+
+requests/
+flask/
+fastapi/
+transformers/
+
+# Any external cloned repositories
+examples/
+test_projects/
